@@ -1,6 +1,5 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import search from './Components/search'
 import './App.css'
 
 function App() {
@@ -11,7 +10,10 @@ function App() {
       <div>
        
       </div>
-      <h1>Movie Database</h1>
+      <h1>game listing app</h1>
+      <main>
+        <search />
+      </main>
       <div className="card">
         
       </div>
